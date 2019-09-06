@@ -1,0 +1,28 @@
+body{
+    background-color: blue;
+    margin:0;
+    /* Targeting a class in CSS-every element with the class of header will receive these CSS rules */
+}
+
+ .header{
+     background-color: lawngreen;
+
+
+
+ }
+
+ #one {
+     float: left;
+ }
+ #two{
+     float:right;
+ }
+
+ h1 {
+     padding-top: 50px;
+     text-align: center;
+     font-size: 100px
+     
+
+ }
+

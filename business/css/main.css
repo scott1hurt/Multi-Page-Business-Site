@@ -1,5 +1,6 @@
 body{
-    background-color: blue;
+    background-color: lightgray;
+    font-family:"Ubuntu", sans-serif;
     margin:0;
     /* Targeting a class in CSS-every element with the class of header will receive these CSS rules */
 }
@@ -22,7 +23,7 @@ body{
      padding-top: 50px;
      text-align: center;
      font-size: 100px
-     
+
 
  }
 

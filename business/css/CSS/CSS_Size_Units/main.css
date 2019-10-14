@@ -1,0 +1,73 @@
+/*Absolute Lengths */
+
+/* Pixels -px - 1/96 of an inch */
+/* Points -pt-1/72 of an inch */
+/* Picas - pc -12pt */
+/* Inch-in- 1 inch */
+/* Centimeter -cm - 1 centimeter */
+/* Millimeter -mm - */
+.div1 {
+    background-color: yellow;
+    /*width: 200px;
+    height: 200px; */
+
+    /* width:50pt;
+    height:50pt; */
+
+    /*width:12pc; 
+    height: 20pc; */
+
+    /*width: 6in;
+    height: 8in; */ 
+
+    /*width:15cm;
+    height:30cm; */
+
+    /*width:20mm;
+    height:20mm; */
+
+    /* Relative Lengths */
+
+    /* These size units are sized relative to other things: for example the size of the parent element */
+
+    /* % - relative to the parent element */
+    /* Rems are  relative to the font size of the root element (usually the body element) */
+
+    .emRem {
+        font-size:12pt;
+
+    }
+
+    .p1{
+  
+       /* font-size: 2em; */
+    }
+
+    .p2 {
+        font-size: .5em;
+
+
+    }
+
+    .parentDiv {
+        background color: blue; 
+        width: 50%;
+        height:200px;
+    }
+
+    .childDiv {
+        background-color:red;
+        width: 50%
+        height:50px;
+
+
+    }
+
+    html {
+        font-size: 40pt;
+    }
+  
+    .remTest{
+        font-size:4rem;
+    }
+

@@ -1,0 +1,67 @@
+/*Order of specificity:
+1. Inline styles
+2. ID styles
+3. Class styles
+4. Element styles
+*/
+
+/*  CSS Cascade Order:
+1. User Agent marked !important -->  Anything the browser has marked as important
+2. User marked !important --> Anything the user has marked as important 
+3. Author marked !important --> Anything we as developers have marked as important
+4. Animations
+5. Author styles--> Defined by us as developers in CSS files
+*/
+
+/*CSS Pseudo-Classes */
+/* Used to style elements when they are in a certain state */
+
+a:link {
+    color: green;
+}
+a: visited {
+    color: aquamarine;
+}
+
+a: hover {
+    text-decoration: underline;
+
+}
+
+a:active{
+    color: hotpink;
+}
+
+
+
+
+
+h1{
+    font-size:30pt;
+}
+.header{
+    font-size:50pt;
+}
+
+#mainHeader{
+    font-size:100pt !important; /*The  important keyword marks the CSS rule as higher priority in the cascade than regular CSS rules */
+}
+
+/* CSS Pseudo elements/*
+/* These can be used to style specific parts of the elements */
+p::first-line{
+    text-transform: uppercase;
+
+}
+p::first-letter{
+
+    font-weight: bold;
+    font-size:40px;
+}
+
+p::selection{
+    color:red;
+    background: yellow;
+
+
+}

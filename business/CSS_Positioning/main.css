@@ -1,0 +1,68 @@
+.paddingTest{
+    /* We can add padding to each side of our element individually */
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+    /*set all our padding for all four sides of our element at once using shorthand */
+    padding:20px;
+    /* set our padding for the top/bottom and left/right using shorthand */
+    /*first value corresponds to the top and bottom padding */
+    /* second value corresponds to the left and right padding */
+    padding: 10px 20px;
+
+    /* Set the padding on the top and bottom seperately and the padding on the left and right at the same time */
+    /*  10x padding on the top, 20x padding on left and right and 25px padding on bottom */
+    /* 10px padding on top, 20px padding on left and right, 25px on bottom */
+    padding: 10px 20px 25px;
+
+    /* remember that padding increases the size of the element's content .  This can be undesirable behavior if you want to keep your content at a certain size */
+
+
+}
+
+.marginTest{
+    /*Set the margin for each side indvidually */
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    margin-left: 5px;
+
+    /* Setting the margin for all 4 sides */
+    margin: 20px;
+
+    /* setting margin on top/bottom and left/right */
+    margin: 50px 30px;
+    /*set top margin, left/right and bottom seperately */
+
+    margin: 10px 25px 40px;
+
+/* we can use auto to automatically calculate margins so that the margin is equalized between the left and right */
+    
+    margin: 25px auto;
+    
+}
+
+.borderTest {
+    /*main border properties*/
+        /*border-style:solid;
+        border-color:red;
+        border-width: 10px;
+        border-radius: 5px;
+        /* border-radius:5px; */
+        /*we can use border-radiusof 50% to make square elements appear as a circle */
+        /* border-radius: 50%; */
+       ł
+        /*shorthand for creating a border on all four sides of the element*/
+        border-top: 2px dotted black;
+        border-left: 10px solid yellow;
+        border-bottom:20px double red;
+    }
+    .hello{
+        display:inline;
+        height: 50px;
+        width:100px;
+        clear: both; 
+    }
+

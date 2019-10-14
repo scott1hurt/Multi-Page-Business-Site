@@ -1,0 +1,127 @@
+container{
+    text-align:center;
+    width:100%;
+    height:auto;
+    padding-top:130px;
+    margin: 0 auto;
+
+}
+/*targeting a class in CSS - every element with the class of header will receive these CSS rules */
+
+header{
+    background-color: rgba( 150, 0, 50, 1.0)
+    overflow:hidden;
+
+}
+
+/* these CSS rules will be applied when we hover over an anchor element inside of an element using the header class */
+.header a:hover {
+    background-color: lightgray;
+
+
+}
+.headerlink{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.logo {
+    margin-top:196px;
+    background: url (/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+}
+
+input {
+    width:400px;
+    height:30px;
+    margin-bottom:15px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+p {
+    font-family: arial;
+    font-size: 9pt;
+}
+.footer a {
+    color: #757575;
+    padding: 5px;
+    font-size: 10pt;
+
+
+
+}
+
+. footer {
+    background: #f2f2f2;
+    font-family: arial;
+    color: #757575;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    left: -5px;
+
+
+}
+
+footer:after{
+
+    display:block;
+    clear:both;
+    content:"";
+    height:0;
+    overflow:hidden;
+}
+
+.footer-left{
+    float:left;
+}
+.footer-right{
+    float:right;
+}
+.google-logo{
+    width:300px;
+}
+.buttons{
+    margin-bottom: 60px;
+
+}
+button{
+    background-color: #f2f2f2;
+    border:none;
+    padding:10px;
+    margin:10px;
+    color:#757575;
+    font-size:10pt;
+    font-weight: bold;
+    font-family:arial;
+    
+
+
+
+
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+button:hover{
+
+    color:black;
+    border:1px solid #d9d9d9;
+    border-radius: 2px;
+}
+
+    h1{
+        color:white;
+
+    }
+    ul, ol {
+        border-width:1px
+    }
+}

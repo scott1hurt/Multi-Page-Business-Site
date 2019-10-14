@@ -1,0 +1,37 @@
+body {
+background-color:blue;
+
+
+}
+/*use these rules when our screen size is between 576px and 768px*/
+@media only screen and (min-width:576px){
+
+    body{
+        background-color: blue;
+    }
+    .topNav{
+        background-color: #333;
+    }
+    .topNav a {
+        text-decoration:none;
+        color: white;
+
+    }
+
+}
+/* use these rules when our screen size is equal to or greater than 768px */
+@media only screen and (min-width:768px){
+    body {
+        background-color:green;
+    }
+
+    
+@media only screen and (min-width:992px) {
+    body{
+        background-color: yellow
+    }
+}
+@media only screen and (min-width:1200px){
+    body {
+        background:magenta;
+    }

@@ -1,0 +1,56 @@
+body {
+background-color:blue;
+
+
+}
+
+/* Use these rules when our screen size is between 576px and 768px */
+
+@media only screen and (min-width:576px){
+/*use these rules when our screen size is greater than or equal to 768px */
+@media only screen and(min-width:768px){
+
+}
+    body{
+        background-color:red;
+    }
+
+    /* At this screen size or larger, the anchor elements in the nav bar should float to the left and reset their width to what it would be normally */
+    .topNav a {
+        float:left;
+        width:auto;
+
+    }
+.topNav{
+    background-color:#333; 
+    overflow:hidden;
+
+}
+/* On mobile devices, the links in the navbar should be the full width of the screen and be stacked on top of each other.
+
+
+.topNav a {
+
+    text-decoration:none;
+    color: white;
+    padding: 10px;
+    width:100%;
+    text-align:center;
+    display:block;
+
+    /*Make breakpoints  for a minimum width of 992 px and 1200 px and change the background color of the body in these media queries */
+}
+@media only screen and (min-width:992px){
+    body{
+        background color:yellow;
+
+    
+    }
+@media only screen  and (min-width: 1200px) {
+
+}
+body {
+    background:magenta;
+
+
+

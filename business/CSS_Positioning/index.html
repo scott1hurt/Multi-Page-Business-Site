@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+
+</head>
+<body>
+    
+<!-- Div to test padding-->
+<div class= "paddingTest" style= "height: 250px; width:250px;
+background-color: blue;"></div>
+<!-- Div to test margins-->
+<div style="height: 250px; width: 250px; background-color: black;"></div>"
+<!--testing collapsing margins-->
+<!-- whenever two block elements are stacked on top of each other, if the top has a bottom margin and the bottom has a top margin, the larger of the two will be used.-->
+<h1 style="margin:30px">Text</h1>
+<h1 style="margin: 50px">Text 2</h1>
+
+<!--div to test border-->
+<div class="borderTest" style="height: 150px; width:150px;background-color: cyan;"></div>
+
+<!--Display Property-->
+<!-- Inline elements onlytake up the space needed by their contents. You cannot set a width/height or margin/padding on an inLine element.-->
+<!-- block elements take up whole width of the screen, regardless of the size of the contents. You can modify the width/heightand margin/padding of the block elements-->
+<!--Inline-block elements are like inline elements (take up the space they need) but you can still change their height/width and margin/padding-->
+<h1 class="hello">Hello</h1>
+<h1 style="display: inline;">Goodbye</h1>
+
+<!-- you can make elements not appear on the screen and not effect where are other elements are using display:none -->
+
+<h1 style= "display: none;" >A Third Header</h1>
+<!-- Floating Elements-->
+<p> Test </p>
+<img style="float: left;" src="https://picsum.photos/200/300">
+
+</body>
+
+
+</html>

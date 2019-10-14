@@ -11,3 +11,4 @@ function sumArray(inputArray) {
     return sum;
 }
 console.log(sumArray([3, 7, 5]));
+

@@ -52,5 +52,14 @@ background-color:blue;
 body {
     background:magenta;
 
+}
+
+/* Default is blue --> If no media queries are applied, the background will be blue.
+Width 576px+ : Red
+Width 768px+ : Green
+Width 992px+ : Yellow
+Width 1200px+ : Magenta
+*/
+
 
 

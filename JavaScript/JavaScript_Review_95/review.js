@@ -576,3 +576,26 @@ console.log(finalString);
         
 
     //     console.log("The highest price is: " + highestPrice);
+//Write a JavaScript function called findLargest to find the largest of three input integers.
+function findLargest(num1, num2, num3) {
+    var largestNum = 0;
+    if (num1 > num2) {
+        largestNum = num1; //If num1 is bigger than num2, set largestNum = num1
+    } else {
+        largestNum = num2; //Since num2 is bigger than num1, set largestNum = num2
+    }
+    if (num3 > largestNum) {
+        largestNum = num3; //Since num3 is bigger than the largestNum from num1 and num2, set largestNum = num3
+    }
+    return largestNum;
+}
+console.log(findLargest(3, 4, 5)); //Testing the function out to see what it returns
+//Write a JavaScript function called sumArray to calculate the sum of values in an input array.
+function sumArray(inputArray) {
+    var sum = 0;
+    for (num of inputArray) {
+        sum += num;
+    }
+    return sum;
+}
+console.log(sumArray([3, 7, 5]));
